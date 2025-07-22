@@ -6,7 +6,7 @@ const SearchBar = ({ fetchWeather }) => {
 
   // Stop the glow after 5 seconds when the component mounts
   useEffect(() => {
-    const timer = setTimeout(() => setGlow(false), 3000);
+    const timer = setTimeout(() => setGlow(false), 4000);
     return () => clearTimeout(timer);
   }, []);
 
