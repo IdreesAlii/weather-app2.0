@@ -12,3 +12,7 @@
 .glow-pulse {
   animation: glowPulse 2s ease-in-out infinite;
 }
+
+html, body {
+  @apply h-full overflow-hidden;
+}
