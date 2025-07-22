@@ -5,7 +5,7 @@
     box-shadow: 0 0 5px 2px rgba(59, 130, 246, 0.7);
   }
   50% {
-    box-shadow: 0 0 15px 6px rgba(96, 165, 250, 1); /* lighter blue */
+    box-shadow: 0 0 15px 6px rgba(96, 165, 250, 1);
   }
 }
 
@@ -13,6 +13,8 @@
   animation: glowPulse 2s ease-in-out infinite;
 }
 
+
 html, body {
-  @apply h-full overflow-hidden;
+  height: 100%;
+  overflow: hidden;
 }

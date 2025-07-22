@@ -25,7 +25,7 @@ const SearchBar = ({ fetchWeather }) => {
         placeholder="Enter City Name"
         value={city}
         onChange={(e) => setCity(e.target.value)}
-        className={`
+        className={` 
           flex-1
           p-3
           border-2
@@ -38,8 +38,9 @@ const SearchBar = ({ fetchWeather }) => {
           rounded-l-full
           border-r-0
           mr-1
-          ${glow ? 'shadow-[0_0_15px_3px_rgba(59,130,246,0.7)]' : 'shadow-none'}
+          ${glow ? 'glow-pulse' : ''}
         `}
+
       />
       <button
         type="submit"

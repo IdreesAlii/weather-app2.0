@@ -2,7 +2,7 @@ import React from 'react'
 
 export const WeatherCard = ({ weather}) => {
   return (
-    <div mt-6>
+    <div className='mt-6'>
       <h2 className=' mt-6 text-2xl font-semibold text-center'>
         {weather.name}, {weather.sys.country}
       </h2>
