@@ -38,8 +38,7 @@ function App() {
 
   return (
 
-    <div className='min-h-screen flex flex-col items-center justify-center bg-blue-100
-    relative overflow-hidden '>
+    <div className='h-screen overflow-hidden flex flex-col items-center justify-center bg-blue-100 relative'>
       <video className='absolute
        top-0 left-0 w-full h-full
         object-cover' autoPlay loop muted>
